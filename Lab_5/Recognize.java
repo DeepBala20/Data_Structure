@@ -1,6 +1,9 @@
+import java.util.Scanner;
 public class Recognize{
 	public static void main(String args[]){
-		String v = "c_";
+		System.out.println("enter String which end with('_')");
+		System.out.println("like [abc_ , aca_ ]");
+		String v = sc.next();
 		int i=0;
 		char c = v.charAt(i);
 		StackOperation s1 = new StackOperation(v.length());
